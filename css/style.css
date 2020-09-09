@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+}
+
+#wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
+    border: 15px solid white;
+    padding: 100px 0;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+nav {
+    background-color: #504741;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    /* width: 10% */
+}
+
+nav li:hover {
+    background-color: #302B27;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+nav a.dropdown-item::after {
+    content: "▼";
+    margin-left: 5px;
+}
+
+aside {
+    float: left;
+    width: 20%;
+}
+
+.box {
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+    padding: 20px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.box-title {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.box-list {
+    list-style-type: none;
+}
+
+.box-list a {
+    text-decoration: none;
+    line-height: 1.6;
+    color: #99cc33;
+    display: block;
+    padding: 5px;
+}
+
+.box-list a:hover {
+    background-color: rgba(0, 0, 0, .04);
+    box-shadow: inset 0px 3px 0px rgba(0, 0, 0, .08);
+}
+
+.search::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.search-input {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: rgba(0, 0, 0, 0.04);
+    color: #999999
+    padding: 10px;
+    margin-right: 10px;
+    float: left;
+    width: calc(75% - 10px);
+}
+
+.search-button {
+    background-color: #504741;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+}
+
+.search-button:hover {
+    background-color: #302B27;
+}
+
+.far {
+    line-height: 1.6;
+    color: grey;
+    display: inline-block;
+    float: left;
+    padding: 5px;
+}
+
+
+.posted-by {
+    line-height: 1.6;
+    color: grey;
+    float: left;
+    padding: 5px;
+}
+
+.linked {
+    text-decoration: none;
+    line-height: 1.6;
+    float: left;
+    color: #99cc33;
+    padding: 5px;
+}
+
+.tags a, .article-link{
+    color: #99cc33;
+    text-decoration: none;
+}
+
+
+.tag1{
+    font-size: 14px;
+}
+
+.tag2{
+    font-size: 20px
+}
+
+main {
+    background-color: white;
+    float: left;
+    width: calc(60% - 20px);
+    /* height: 500px; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#commento {
+    display: block;
+}
+
+.fas {
+    line-height: 1.6;
+    color: grey;
+    float: left;
+    padding: 5px;
+}
+
+footer {
+    height: 50px;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+    padding: 30px;
+    font-size: 12px;
+    font-weight: normal;
+    color: grey;
+}
+
+.copy {
+    text-align: left;
+}
+
+.theme {
+    text-align: left;
+}
+
+.theme a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.theme a:hover{
+    text-decoration: underline;
+}
+
+.contact{
+    float:right;
+}
+.social{
+    margin:0 5px;
+    display: inline-block;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .06);
+    padding: 10px;
+    text-decoration: none;
+    color: #666666;
+    font-size: 16px;
+}
+
+.social:hover{
+    padding:10px;
+    font-size: 16px;
+    background: white;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25);
+}
